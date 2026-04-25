@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&family=Public+Sans:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-display: "Noto Serif", serif;
+  --font-sans: "Public Sans", sans-serif;
+
+  --color-primary: #041627;
+  --color-primary-container: #1a2b3c;
+  --color-on-primary-container: #8192a7;
+  
+  --color-secondary: #775a19;
+  --color-secondary-container: #fed488;
+  --color-on-secondary-container: #785a1a;
+  
+  --color-surface: #f8f9ff;
+  --color-surface-container: #e5eeff;
+  --color-surface-container-high: #dfe9fa;
+  --color-on-surface: #121c28;
+  --color-on-surface-variant: #44474c;
+  
+  --color-gold: #775a19;
+  --color-navy: #041627;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(to right, rgba(4, 22, 39, 0.9) 30%, rgba(4, 22, 39, 0.2) 100%);
+}

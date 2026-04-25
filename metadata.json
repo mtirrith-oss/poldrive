@@ -1,0 +1,12 @@
+{
+  "name": "PolDrive Hub",
+  "description": "Portail institutionnel moderne pour l'accompagnement administratif des conducteurs internationaux en Pologne (échanges de permis, traductions assermentées et immatriculations).",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Consultation Booking",
+    "Service Selection",
+    "Process Tracking"
+  ]
+}
